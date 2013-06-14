@@ -19,7 +19,7 @@
 
 -- Find all the rectangles with integers dimensions
 -- whose perimeter is equal to their area. Do not
--- not include any rectangles that are equivalent
+-- include any rectangles that are equivalent
 -- to one another ((2,10) and (10,2) are the
 -- same rectangle).
 --

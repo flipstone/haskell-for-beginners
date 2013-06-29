@@ -5,7 +5,7 @@
 fizzBuzzLose :: Integer -> String
 fizzBuzzLose = undefined
 
--- Write functions to calculate the 2 and 3 dimensional
+-- Write two functions to calculate the 2 and 3 dimensional
 -- dot product using tuples and pattern matching:
 --   http://en.wikipedia.org/wiki/Dot_product#Algebraic_definition
 

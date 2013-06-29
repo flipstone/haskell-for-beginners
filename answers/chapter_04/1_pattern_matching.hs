@@ -20,7 +20,7 @@ fizzBuzzLose 14 = "Fourteen"
 fizzBuzzLose 15 = "Fizz Buzz"
 fizzBuzzLose _ = "I lose!!"
 
--- Write functions to calculate the 2 and 3 dimensional
+-- Write two functions to calculate the 2 and 3 dimensional
 -- dot product using tuples and pattern matching:
 --   http://en.wikipedia.org/wiki/Dot_product#Algebraic_definition
 dot2 :: Num a => (a,a) -> (a,a) -> a

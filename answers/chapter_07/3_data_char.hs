@@ -1,7 +1,7 @@
 -- import the Data.Char module and solve the following problem
 --   (You may use other modules as well if you wish)
 --
--- See the url below for the list of in Data.Char
+-- See the url below for the list of functions in Data.Char
 --   http://www.haskell.org/ghc/docs/7.6-latest/html/libraries/base-4.6.0.1/Data-Char.html
 --
 -- You have acquired through separate channels an encrypted message

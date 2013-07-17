@@ -30,4 +30,11 @@ Chapter 6 - Higher Order Functions
   * Function application with $
   * Function composition
 
+Week 7
+======
+Chapter 7 - Modules
+
+Week 8
+======
+Chapter 8 - Making Our Own Types and Typeclasses
 

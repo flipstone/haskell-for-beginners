@@ -16,6 +16,7 @@
 
 geneData :: String
 geneData =
+  -- <Gene Name> <Ensembl Id> <Chromosome>
   "FKRP ENSG00000181027 Chromosome-19\n" ++
   "LMNA ENSG00000160789 Chromosome-1\n" ++
   "DYSF ENSG00000135636 Chromosome-2\n" ++

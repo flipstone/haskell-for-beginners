@@ -37,4 +37,7 @@ Chapter 7 - Modules
 Week 8
 ======
 Chapter 8 - Making Our Own Types and Typeclasses
+  * Up to and including beginning of Kinds
+  * Type-foo section of Kinds is not included
+
 

@@ -1,0 +1,296 @@
+-- Room --
+Cell
+You have been locked in a dungeon cell. The prisoner next
+to you whipsers, "there's a tunnel behind the bed on the
+south wall. Good Luck!"
+-- Exits --
+South: Tunnel
+
+-- Room --
+Tunnel
+You are crouching in a dark tunnel. There is a light at
+the north end, where you can see the bars of your dungeon
+cell. There is a torch here you can use to light your
+way. The tunnel continues to the south.
+-- Exits --
+South: Cavern
+North: Cell
+
+-- Room --
+Cavern
+You are in a spacious cavern. Stalagmites cast ominous
+shadows in your torchlight. There is a large opening to the
+south. To the east is a narrow slit you could squeeze through.
+A tunnel slopes upward to the north.
+-- Exits --
+North: Tunnel
+South: Branching Hallway
+East: Narrow Passage Entry
+
+-- Room --
+Branching Hallway
+You are in a broad underground natural hallway. It slopes
+downward from the north, where an opening leads to a large
+cavern. As it descends, it branches into three passages.
+One goes east, one west, and one south.
+-- Exits --
+North: Cavern
+East: East Passage
+South: South Passage
+West: West Passage
+
+-- Room --
+East Passage
+You walk along a long, narrowing passage. You to hear the sound
+of rushing water water to the east. The passage goes east and west.
+-- Exits --
+East: The Ledge
+West: Branching Hallway
+
+-- Room --
+The Ledge
+You are standing at a ledge at a passage's end. Water rushes loudly
+somewhere below in the darnkess - your torchlight doesn't reach it.
+The passage leads back to the west. To the east, you can only leap
+into darkness.
+-- Exits --
+East: Death by Water
+West: East Passage
+
+-- Room --
+Death by Water
+You leap into the darkness and begin to fall. The sound of the water
+grows louder as you fall. You see just a moment of the rushing rapids
+in the torchlight before you plunge beneath the water and the torch
+is extinguished. You have only a moment to regret your decision before
+the force of the water pummels you against the rocks in the underground
+river. You are dead.
+
+-- Room --
+South Passage
+This passage declines steeply to the south and rises to the north. You
+hear the sound of rushing water from the south.
+-- Exits --
+North: Branching Hallway
+South: River Crossing
+
+-- Room --
+River Crossing
+You are at an underground river of fast moving water. It is clearly unswimmable.
+You would surely be bashed against the rocks before you could make much progress.
+There is a natural stone bridge here across the river, though. On the south side
+of the bridge there is a rock face leading up into the darkness. On the north side,
+a passage leading steeply upward.
+-- Exits --
+North: South Passage
+South: Cliff Face
+
+-- Room --
+Cliff Face
+You are standing at the base of a rock cliff reaching up beyond your torchlight.
+To the north is an underground river. To the south there is only the cliff to climb.
+There are handholds, but you can't be sure if they are steady. A pebble comes
+rolling down the cliff, bouncing against the rocks as it goes.
+-- Exits --
+North: River Crossing
+South: Climbing
+
+-- Room --
+Climbing
+You are clinging to the side of a cliff face, climbing. You have left your torch
+below, unable to climb effectively with it. You are at the edge of the torchlight,
+only darkness above you. The rocks are loose in some places, firm in others. You
+can descend the cliff to the north or continue climbing to the south.
+-- Exits --
+North: Cliff Face
+South: Death by Falling
+
+-- Room --
+Death by Falling
+Without the light of the torch, the climbing is much more dangerous. It is difficult
+to find secure footholds in the darkness. You persist. Eventually, the inevitable
+happens. In the darkness you put your weight on a loose stone and lose you footing.
+You fall, bouncing like a pebble against the rocks. You are dead before you reach
+the ground.
+
+-- Room --
+West Passage
+You are in a low and narrow passage running east and west. To the west it becomes
+narrower. There is an adjoining passage to the south that descends steeply.
+-- Exits --
+East: Branching Hallway
+West: The Squeeze
+South: Underground Lake
+
+-- Room --
+Underground Lake
+You are at the edge of an underground lake. You hear the sound of a rushing river,
+but the the cave walls conceal its location from you. To the north is a
+passage ascending steeply. To the south you can put down your torch and swim.
+-- Exits --
+North: West Passage
+South: Swimming Edge
+
+-- Room --
+Swimming Edge
+You are swimming in the underground lake. It is cold. The torch is on the shore.
+To go any further you'll have to swim into the darkness.
+-- Exits --
+North: Underground Lake
+South: Death by Drowning
+East: Death by Drowning
+West: Death by Drowning
+
+-- Room --
+Death by Drowning
+You swim off into the darkness. It is pitch black beyond the torchlight. You
+quickly lose track of your way. The cold water saps your strength. In the end,
+you are lost, and you don't have the energy search for the passage you came
+from any longer. You pass out and drown. You are dead.
+
+-- Room --
+The Squeeze
+You are squeezed into a passageway only just wide enough for you. The cave walls
+press into your chest and back as attempt to move through. The passage widens
+to the east and west.
+-- Exits --
+East: West Passage
+West: Exit Hall
+
+-- Room --
+Exit Hall
+You are in a small cavern. To the east is a narrow passageway you might be able
+to to squeeze through. To the south is a passage sloping gently upwards. To the
+west is an entry to a series of complex passages.
+-- Exits --
+East: The Squeeze
+South: Outside
+West: NP12
+
+-- Room --
+Outside
+The passage slopes upwards for a long ways, but it is easy walking on the gentle
+grade. Before long you realize you see the light of day outside! You hurry forward
+and emerge from the cave mouth. You have escaped!
+-- Exits --
+North: Freedom
+South: Freedom
+East: Freedom
+West: Freedom
+
+-- Room --
+Freedom
+You walk off across the field, free to choose where you wish to go.
+-- Exits --
+North: Freedom
+South: Freedom
+East: Freedom
+West: Freedom
+
+-- Room --
+Narrow Passage Entry
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP1
+South: NP2
+East: NP3
+West: Cavern
+
+-- Room --
+NP1
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP5
+South: Narrow Passage Entry
+East: NP3
+
+-- Room --
+NP2
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: Narrow Passage Enty
+East: NP4
+
+-- Room --
+NP3
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP1
+South: NP4
+East: NP7
+West: North Passage Entry
+
+-- Room --
+NP4
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP3
+South: NP9
+East: NP8
+West: NP2
+
+-- Room --
+NP5
+You are wandering in a complex of narrow passages.
+-- Exits --
+South: NP1
+East: NP6
+
+-- Room --
+NP6
+You are wandering in a complex of narrow passages.
+-- Exits --
+South: NP7
+East: NP10
+West: NP5
+
+-- Room --
+NP7
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP6
+South: NP8
+East: NP9
+West: NP3
+
+-- Room --
+NP8
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP7
+East: NP9
+West: NP4
+
+-- Room --
+NP9
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP7
+South: NP4
+East: NP10
+West: NP8
+
+-- Room --
+NP10
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP11
+South: NP11
+East: NP9
+West: NP6
+
+-- Room --
+NP11
+You are wandering in a complex of narrow passages.
+-- Exits --
+North: NP10
+South: NP10
+East: NP12
+
+-- Room --
+NP12
+You are wandering in a complex of narrow passages.
+-- Exits --
+West: NP11
+East: Exit Hall
+

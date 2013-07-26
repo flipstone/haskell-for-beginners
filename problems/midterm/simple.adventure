@@ -1,0 +1,45 @@
+-- Room --
+Center
+You are in a square room. There are doors to the
+north, south, east, and west.
+-- Exits --
+North: North Hall
+South: South Room
+East: East Room
+West: West Room
+
+-- Room --
+North Hall
+You are in a hallway. There are doors to the north and south.
+-- Exits --
+North: Outside
+South: Center
+
+-- Room --
+South Room
+You are in a small room with a table a chair. The only
+exit is to the north.
+-- Exits --
+North: Center
+
+-- Room --
+East Room
+You are in a bathroom. The only
+exit is to the west.
+-- Exits --
+West: Center
+
+-- Room --
+West Room
+You are in the kitchen. The only
+exit is to the east.
+-- Exits --
+East: Center
+
+-- Room --
+Outside
+You step through the door into sunlight and fresh air.
+You have escaped! Congratulations.
+-- Exits --
+South: North Hall
+

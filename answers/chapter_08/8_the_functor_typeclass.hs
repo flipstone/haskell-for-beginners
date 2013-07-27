@@ -1,4 +1,4 @@
--- Define a functions encrypt and decrypt character
+-- Define functions to encrypt and decrypt character
 -- data inside *any* Functor using Caesar cipher with
 -- a shift 13.
 --

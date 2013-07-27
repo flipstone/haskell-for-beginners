@@ -45,7 +45,7 @@ instance Container Box where
 instance Container Carton where
   unpack Empty = Nothing
   unpack (Item x) = Just x
-  unpack (Too c c') =
+  unpack (Divider c c') =
     case unpack c of
       Just x -> Just x
       Nothing -> unpack c'

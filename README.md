@@ -17,6 +17,7 @@ Chapter 4 - Syntax in Functons
 Week 5
 ======
 Chapter 5 - Recursion
+
 Chapter 6 - Higher Order Functions
   * Curried functions
   * Some higher-orderism is in order

@@ -1,5 +1,5 @@
 -- You're going to judge an archery contest. The
--- contests are each going to take some number of
+-- contestants are each going to take some number of
 -- shots at a number of targets. Each target has
 -- a target area and a point value. The target area
 -- is a circle centered on an x,y point with a given

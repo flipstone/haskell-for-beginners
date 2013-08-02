@@ -54,3 +54,8 @@ Midterm
 -------
 Implement a simple text adventure engine.
 
+Week 9
+------
+Chapter 9 - Input and Output
+  * Hello, World!
+

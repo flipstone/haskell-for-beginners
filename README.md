@@ -58,4 +58,6 @@ Week 9
 ------
 Chapter 9 - Input and Output
   * Hello, World!
+  * Files and streams
+    * Up to (not including) Avril Lavigne
 

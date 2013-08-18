@@ -61,3 +61,14 @@ Chapter 9 - Input and Output
   * Files and streams
     * Up to (not including) Avril Lavigne
 
+Week 10
+-------
+Chapter 9 - Input and Output
+  * File and streams
+    * From Avril Lavigne on
+  * Command Line Arguments
+  * Randomness
+  * Bytestrings
+  (Exceptions are skipped)
+
+

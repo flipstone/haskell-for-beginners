@@ -1,0 +1,18 @@
+-- Implement a drawing machine that processes commands
+-- given as single characters on stdin and then shows
+-- the picture drawn by the commands. The commands
+-- are:
+--  l,r,u,d - move pen left,right,up,down
+--  ^,v - pen up, pen down
+--
+-- All other characters can be ignored.
+--
+-- The machine should start at (0,0) with the pen up and
+-- trace all points the machine touches while the pen is
+-- down. Display all the points between (10,10) and (-10,-10)
+-- as a picture to stdout.
+--
+-- Try this picture as a test:
+--   llluuuuvldr^rrrrrrrrvurd^ddddv^dlvl^dlvllll^ulvl^ulv
+--
+

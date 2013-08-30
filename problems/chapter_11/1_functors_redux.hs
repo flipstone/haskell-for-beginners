@@ -7,8 +7,7 @@
 -- Use IO as a Functor to define an IO action
 -- that reads a line from stdin as an Int
 --
-getIntLine :: IO Int
-getIntLine = fmap read getLine
+getIntLine = undefined
 
 
 -- Define a function that will read an Int
@@ -16,45 +15,39 @@ getIntLine = fmap read getLine
 -- just IO. You are 'lifting' the read
 -- function into the Functor.
 --
-readIntF :: Functor f => f String -> f Int
-readIntF = fmap read
+readIntF = undefined
 
 
 -- Define a new version of getIntLine that
 -- uses readIntF
 --
-getIntLine' :: IO Int
-getIntLine' = readIntF getLine
+getIntLine' = undefined
 
 
 -- Define a function that doubles an Int
 -- read from a String, using Functions as
 -- Functors.
 --
-readDoubleInt :: String -> Int
-readDoubleInt = fmap (*2) read
+readDoubleInt = undefined
 
 
 -- Define a function that doubles an Int,
 -- which is lifted any Functor.
 --
-doubleIntF :: Functor f => f Int -> f Int
-doubleIntF = fmap (*2)
+doubleIntF = undefined
 
 
 -- Define a new version of readDoubleInt
 -- using doubleIntF
 --
-readDoubleInt' :: String -> Int
-readDoubleInt' = doubleIntF read
+readDoubleInt' = undefined
 
 
 -- Define an IO Action that reads a line
 -- from stdin as an Int and doubles it,
 -- using your functions above
 --
-getDoubleIntLine :: IO Int
-getDoubleIntLine = doubleIntF getIntLine
+getDoubleIntLine = undefined
 
 
 -- Define a function that doubles an Int
@@ -62,15 +55,13 @@ getDoubleIntLine = doubleIntF getIntLine
 -- Functor. Use functions from above to
 -- make your definition as simple as possble.
 --
-readDoubleIntF :: Functor f => f String -> f Int
-readDoubleIntF = doubleIntF . readIntF
+readDoubleIntF = undefined
 
 
 -- Define a new version of getDoubleIntLine
 -- using readDoubleIntF
 --
-getDoubleIntLine' :: IO Int
-getDoubleIntLine' = readDoubleIntF getLine
+getDoubleIntLine' = undefined
 
 
 -- Define a Functor instance for the Graph
@@ -84,11 +75,7 @@ sampleGraph = Node "Whiskey" [
     Node "Bang" []
   ]
 
-instance Functor Graph where
-  fmap f (Node a links) = Node (f a) (fmap (fmap f) links)
-
-idProof = fmap id sampleGraph == sampleGraph
-compositionProof = fmap (reverse . drop 3) sampleGraph ==
-                   fmap reverse (fmap (drop 3) sampleGraph)
+idProof = False
+compositionProof = False
 
 

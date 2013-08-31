@@ -71,4 +71,14 @@ Chapter 9 - Input and Output
   * Bytestrings
   (Exceptions are skipped)
 
+Week 11
+-------
+Code Week! Work on any programming problems you can find on the internet and bring your questions to class.
+  * http://www.haskell.org/haskellwiki/H-99:_Ninety-Nine_Haskell_Problems
+  * http://projecteuler.net/
+  * http://programmingpraxis.com/contents/chron/
+  * http://codekata.pragprog.com/2007/01/code_kata_backg.html
+  * http://www.codequizzes.com/
+  * http://rubyquiz.strd6.com/
+
 

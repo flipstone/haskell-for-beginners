@@ -81,4 +81,9 @@ Code Week! Work on any programming problems you can find on the internet and bri
   * http://www.codequizzes.com/
   * http://rubyquiz.strd6.com/
 
+Week 12
+-------
+Chapter 11 - Applicative Funtors
+  * Functors Redux
+  * Applicative Functors
 

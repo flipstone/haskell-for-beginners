@@ -87,3 +87,9 @@ Chapter 11 - Applicative Funtors
   * Functors Redux
   * Applicative Functors
 
+Week 13
+-------
+Chapter 11 - Applicative Funtors (monoids)
+  * The Newtype Keyword
+  * Monoids
+

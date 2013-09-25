@@ -16,36 +16,20 @@ type Path = [Direction]
 -- recording the Direction in a Writer so the Path
 -- taken can be tracked.
 --
-go :: Direction -> Rover -> Writer Path Rover
-go dir (x,y) = writer ((x',y'), [dir])
-  where x' = x + dX dir
-        y' = y + dY dir
-        dY North = 1
-        dY South = -1
-        dY _ = 0
-        dX East = 1
-        dX West = -1
-        dX _ = 0
+go = undefined
 
 
 -- Define a function to decide which Direction the
 -- Rover will go based on its current position.
 -- Decide which Direction however you would like.
 --
-decide :: Rover -> Direction
-decide (x,y)
-  | x `mod` y == 0 = North
-  | y `mod` x == 0 = East
-  | x > y = West
-  | otherwise = South
-
+decide = undefined
 
 -- Using the go and decide functions, construct a
 -- Writer action that will take a Rover and make
 -- it move a step on autopilot
 --
-autopilot :: Rover -> Writer Path Rover
-autopilot rover = go (decide rover) rover
+autopilot = undefined
 
 
 -- Define a function that accepts a list of Rover
@@ -56,8 +40,7 @@ autopilot rover = go (decide rover) rover
 -- it took.
 --
 runRover :: [Rover -> Writer Path Rover] -> (Rover, Path)
-runRover commands = runWriter $
-  foldl (>>=) (writer ((0,0),[])) commands
+runRover = undefined
 
 
 -- Construct a Rover routine using a comination of
@@ -67,12 +50,5 @@ runRover commands = runWriter $
 -- took.
 --
 rover :: (Rover, Path)
-rover = runRover [
-    go North,
-    autopilot,
-    go East,
-    autopilot, autopilot, autopilot,
-    go West,
-    autopilot, autopilot, autopilot
-  ]
+rover = undefined
 

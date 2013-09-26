@@ -17,15 +17,16 @@ type Path = [Direction]
 -- taken can be tracked.
 --
 go :: Direction -> Rover -> Writer Path Rover
-go dir (x,y) = writer ((x',y'), [dir])
-  where x' = x + dX dir
-        y' = y + dY dir
-        dY North = 1
-        dY South = -1
-        dY _ = 0
-        dX East = 1
-        dX West = -1
-        dX _ = 0
+go dir (x,y) = writer ((x + dX,y + dY), [dir])
+  where dY = case dir of
+              North -> 1
+              South -> -1
+              otherwise -> 0
+
+        dX = case dir of
+              East -> 1
+              West -> -1
+              otherwise -> 0
 
 
 -- Define a function to decide which Direction the

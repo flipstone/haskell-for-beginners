@@ -108,4 +108,16 @@ Week 16
 Chapter 13 - For a Few Monads More
 
 
+Special Thanks
+==============
+To the intrepid students who allowed themselves to be experiment on in the course and helped shape the homework problems.
 
+![class picture](https://raw.github.com/flipstone/haskell-for-beginners/master/class-picture.jpg "Class Picture")
+
+from L to R, top to bottom
+
+ * David Blackmon
+ * Eden Delgado
+ * David Vollbracht (instructor)
+ * Patrick Kennedy
+ * David Vitrant

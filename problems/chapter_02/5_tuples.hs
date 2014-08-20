@@ -18,8 +18,8 @@
 
 
 -- Find all the rectangles with integers dimensions
--- whose perimeter is equal to their area. Do not
--- include any rectangles that are equivalent
+-- up to 10 whose perimeter is equal to their area.
+-- Do not include any rectangles that are equivalent
 -- to one another ((2,10) and (10,2) are the
 -- same rectangle).
 --

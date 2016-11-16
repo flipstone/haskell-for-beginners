@@ -10,7 +10,7 @@ fib = [ f n | n <- [1..] ]
 -- the maximum element in a list of
 -- pairs of elements.
 
-maxPairElement :: Ord a => [(a,a)] => a
+maxPairElement :: Ord a => [(a,a)] -> a
 maxPairElement [] = error "Maximum of empty list"
 
 maxPairElement [(x,y)]

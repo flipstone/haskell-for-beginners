@@ -7,6 +7,6 @@ fib = undefined
 -- the maximum element in a list of
 -- pairs of elements.
 
-maxPairElement :: Ord a => [(a,a)] => a
+maxPairElement :: Ord a => [(a,a)] -> a
 maxPairElement = undefined
 
